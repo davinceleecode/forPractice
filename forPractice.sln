@@ -5,12 +5,15 @@ VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "forPractice", "forPractice.csproj", "{FF12F6D8-841A-4CD4-BEF5-04BC4563A4F5}"
 EndProject
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "..\DesignPatterns\DesignPatterns.csproj", "{2B0E77A7-1594-4047-9046-EA1EC90B6839}"
 =======
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{7448A4DF-043C-45A6-92E8-DE5A62893422}"
 >>>>>>> Stashed changes
 EndProject
+=======
+>>>>>>> 85a69b4c520072c89ba70c9e65aefbdc1229ac67
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +24,7 @@ Global
 		{FF12F6D8-841A-4CD4-BEF5-04BC4563A4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF12F6D8-841A-4CD4-BEF5-04BC4563A4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF12F6D8-841A-4CD4-BEF5-04BC4563A4F5}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		{2B0E77A7-1594-4047-9046-EA1EC90B6839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2B0E77A7-1594-4047-9046-EA1EC90B6839}.Debug|Any CPU.Build.0 = Debug|Any CPU
@@ -32,6 +36,8 @@ Global
 		{7448A4DF-043C-45A6-92E8-DE5A62893422}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7448A4DF-043C-45A6-92E8-DE5A62893422}.Release|Any CPU.Build.0 = Release|Any CPU
 >>>>>>> Stashed changes
+=======
+>>>>>>> 85a69b4c520072c89ba70c9e65aefbdc1229ac67
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
