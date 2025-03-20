@@ -5,4 +5,29 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="DesignPatterns\Behavioral Patterns\Command\" />
+    <Folder Include="DesignPatterns\Behavioral Patterns\ChainofResponsibility\" />
+    <Folder Include="DesignPatterns\Behavioral Patterns\Memento\" />
+    <Folder Include="DesignPatterns\Behavioral Patterns\Mediator\" />
+    <Folder Include="DesignPatterns\Behavioral Patterns\Interpreter\" />
+    <Folder Include="DesignPatterns\Behavioral Patterns\Visitor\" />
+    <Folder Include="DesignPatterns\Behavioral Patterns\TemplateMethod\" />
+    <Folder Include="DesignPatterns\Behavioral Patterns\State\" />
+    <Folder Include="DesignPatterns\Behavioral Patterns\Strategy\" />
+    <Folder Include="DesignPatterns\Behavioral Patterns\Observer\" />
+    <Folder Include="DesignPatterns\CreationalPatterns\FactoryMethod\" />
+    <Folder Include="DesignPatterns\CreationalPatterns\AbstractFactory\" />
+    <Folder Include="DesignPatterns\CreationalPatterns\Builder\" />
+    <Folder Include="DesignPatterns\CreationalPatterns\Prototype\" />
+    <Folder Include="DesignPatterns\CreationalPatterns\Singleton\" />
+    <Folder Include="DesignPatterns\StructuralPatterns\Decorator\" />
+    <Folder Include="DesignPatterns\StructuralPatterns\Adapter\" />
+    <Folder Include="DesignPatterns\StructuralPatterns\Bridge\" />
+    <Folder Include="DesignPatterns\StructuralPatterns\Composite\" />
+    <Folder Include="DesignPatterns\StructuralPatterns\Facade\" />
+    <Folder Include="DesignPatterns\StructuralPatterns\Flyweight\" />
+    <Folder Include="DesignPatterns\StructuralPatterns\Proxy\" />
+  </ItemGroup>
+
 </Project>
