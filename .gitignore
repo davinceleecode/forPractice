@@ -3,3 +3,6 @@ main.logs
 *.logs
 bin/
 .vs/
+obj/
+*.user
+*.lock
