@@ -15,6 +15,9 @@ namespace forPractice
             BinaryGap binaryGap = new BinaryGap(1041);
             Console.WriteLine($"Binary Gap Result: {binaryGap.Solution()} in Total.");
 
+            //trying to edit
+            //trying to edit
+            //trying to edit
 
             //CyclicRotation - Rotate an array to the right by a given number of steps.
             CyclicRotation rotateArrayPosition = new CyclicRotation();
