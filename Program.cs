@@ -39,3 +39,4 @@ namespace forPractice
 =======
 Feature update from ondev
 >>>>>>> 3654412 (Update Program.cs from ondev)
+// Feature: Adding new func
