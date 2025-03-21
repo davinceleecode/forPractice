@@ -36,4 +36,9 @@ namespace forPractice
         }
 
     }
+<<<<<<< HEAD
 }
+=======
+}
+//Hotfix: Bug fix applied
+>>>>>>> 492e82a (Hotfix applied)
