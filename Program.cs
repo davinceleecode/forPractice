@@ -14,6 +14,9 @@ namespace forPractice
             BinaryGap binaryGap = new BinaryGap(1041);
             Console.WriteLine($"Binary Gap Result: {binaryGap.Solution()} in Total.");
 
+            //trying to edit
+            //trying to edit
+            //trying to edit
 
             //Given a string, return the first non-repeating character. If all characters repeat, return '_'.
             UniqueFirstChar returnUniqueChar = new UniqueFirstChar();
