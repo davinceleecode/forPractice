@@ -32,10 +32,11 @@ namespace forPractice
             int[] numbers = { 1, 2, 2, 3, 3, 5, 5, 6, 7, 8, 9 };
             RemoveDuplicateNum removeduplicatenum = new RemoveDuplicateNum(numbers);
             Console.WriteLine(String.Join(",", removeduplicatenum.RemoveDuplicates()));
+            Console.WriteLine($"Working ondev updates");
             Console.WriteLine($"working in main updates");
+
+
         }
 
     }
-
 }
-
