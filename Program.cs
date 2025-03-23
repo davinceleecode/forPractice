@@ -2,13 +2,66 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Linq;
 
 namespace forPractice
 {
     class Program
     {
+
         static void Main(string[] args)
         {
+
+            //using custom linq extensions
+            List<employee> employees = new List<employee>() {
+                new employee{ Id = 1, Name = "Vincent"},
+                new employee{ Id = 2, Name = "Lee"},
+                new employee{ Id = 3, Name = "Flores"},
+                new employee{ Id = 4, Name = "Via"}
+
+            };
+
+            var original = employees.xSelect(m => new { m.Name, m.Id }).ToList();
+            var originalx = employees.Select(delegate (employee m)
+            {
+                return new { m.Id, m.Name, Message = "Done" };
+            });
+
+            var resultx = employees.Where(c => c.Id == 1).customSelect(c => c.Name);
+
+            //########################################################################################
+            //it doesn’t fully iterate twice due to lazy evaluation and how LINQ works. | put in debug mode to see what happen
+            MyNumbers myNumbers = new MyNumbers();
+            var evenNumbers = myNumbers
+                .Where(n => n % 2 == 0) // First step: Filters elements
+                .Select(n => $"Even: {n}")// Second step: Transforms elements
+                .ToList();// Executes everything and stores the result
+
+
+            //how iteration happen inside linq
+            var resultnum = myNumbers
+                .Where(n =>
+                {
+                    Console.WriteLine($"Checking: {n}");
+                    return n % 2 == 0;
+                })
+                .Select(n =>
+                {
+                    Console.WriteLine($"Transforming: {n}");
+                    return $"Even Number:{n}";
+                })
+                .ToList();
+            //########################################################################################
+
+
+
+            StudySelect studySelect = new StudySelect();
+            studySelect.Trigger();
+
+
+            //how yield works
+            yieldList yieldList = new yieldList();
+            yieldList.hitMe();
 
 
             //For example, given N = 1041 the function should return 5, 
