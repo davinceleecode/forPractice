@@ -11,6 +11,16 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            //plusminus | -4 3 -9 0 4 1 | expected output: 0.500000, 0.333333, 0.166667
+            List<int> arr = Console.ReadLine().TrimEnd()
+                .Split(' ')
+                .ToList()
+                .Select(arrTemp => Convert.ToInt32(arrTemp))
+                .ToList();
+            PlusMinus plusMinus = new PlusMinus(arr);
+            Console.WriteLine(string.Join(", ", plusMinus.plusMinus().Select(pm => pm)));
+
+
 
             //using custom linq extensions
             List<employee> employees = new List<employee>() {
