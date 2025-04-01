@@ -8,8 +8,8 @@ namespace forPractice
 {
     public class PlusMinus
     {
-        List<int> arr = new List<int>();
-        public PlusMinus(List<int> Arr)
+        List<long> arr = new List<long>();
+        public PlusMinus(List<long> Arr)
         {
             arr = Arr;
         }

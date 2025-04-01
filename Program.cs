@@ -11,12 +11,20 @@ namespace forPractice
 
         static void Main(string[] args)
         {
-            //plusminus | -4 3 -9 0 4 1 | expected output: 0.500000, 0.333333, 0.166667
-            List<int> arr = Console.ReadLine().TrimEnd()
+
+
+
+            List<long> arr = Console.ReadLine().TrimEnd()
                 .Split(' ')
                 .ToList()
-                .Select(arrTemp => Convert.ToInt32(arrTemp))
+                .Select(arrTemp => Convert.ToInt64(arrTemp))
                 .ToList();
+
+            //mini-max-sum
+            MiniMaxSum miniMaxSum = new MiniMaxSum(arr);
+            Console.WriteLine(string.Join(" ", miniMaxSum.Result().Select(r => r)));
+
+            //plusminus | -4 3 -9 0 4 1 | expected output: 0.500000, 0.333333, 0.166667
             PlusMinus plusMinus = new PlusMinus(arr);
             Console.WriteLine(string.Join(", ", plusMinus.plusMinus().Select(pm => pm)));
 
