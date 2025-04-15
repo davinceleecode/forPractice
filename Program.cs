@@ -12,7 +12,8 @@ namespace forPractice
         static void Main(string[] args)
         {
 
-
+            //remove duplicate from sorted array
+            Console.WriteLine(RemoveDuplicatesFromSortedArray.removeDuplicate(new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 }).ToString());
 
             List<long> arr = Console.ReadLine().TrimEnd()
                 .Split(' ')
