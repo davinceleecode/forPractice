@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using forPractice.Challenges;
 
 namespace forPractice
 {
@@ -11,6 +12,15 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+
+            //Three concecutive odds
+            ThreeConsecutiveOdds threeConsecutiveOdds = new ThreeConsecutiveOdds();
+            Console.WriteLine(threeConsecutiveOdds.ThreeOdds(new int[] { 1, 2, 1, 1 }));
+
+            //finding 3-digit even numbers
+            Finding3DigitEvenNumbers finding3DigitEvenNumbers = new Finding3DigitEvenNumbers();
+            var res = finding3DigitEvenNumbers.FindEvenNum(new int[] { 2, 1, 3, 0 });
+            Console.WriteLine(res == null || res.Length == 0 ? "No even integers can be formed using the given digits." : string.Join(", ", res));
 
             //remove duplicate from sorted array
             Console.WriteLine(RemoveDuplicatesFromSortedArray.removeDuplicate(new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 }).ToString());
