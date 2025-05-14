@@ -13,6 +13,16 @@ namespace forPractice
         static void Main(string[] args)
         {
 
+            TotalCharInStringAfterTransformation totalCharInStringAfterTransformation = new TotalCharInStringAfterTransformation();
+            Console.WriteLine(totalCharInStringAfterTransformation.LengthAfterTransformations("jqktcurgdvlibczdsvnsg", 7517));
+
+            exam1 x = new exam1();
+            Console.WriteLine(x.solution("126138944"));
+
+
+            demo d = new demo();
+            Console.WriteLine(d.solution(new[] { 1, 3, 6, 4, 1, 2 }));
+
             //Three concecutive odds
             ThreeConsecutiveOdds threeConsecutiveOdds = new ThreeConsecutiveOdds();
             Console.WriteLine(threeConsecutiveOdds.ThreeOdds(new int[] { 1, 2, 1, 1 }));
