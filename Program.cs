@@ -13,6 +13,14 @@ namespace forPractice
         static void Main(string[] args)
         {
 
+            var words = new string[] { "a", "b", "c", "d" };
+            var group = new int[] { 1, 1, 0, 1 };
+            qeasy2900 qeasy = new qeasy2900();
+            Console.WriteLine(qeasy.GetLongestSubsequence(words, group));
+
+            qhard3337_part_2 qhard3337 = new qhard3337_part_2();
+            qhard3337.LengthAfterTransformations("abkz", 1, new int[] { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 });
+
             TotalCharInStringAfterTransformation totalCharInStringAfterTransformation = new TotalCharInStringAfterTransformation();
             Console.WriteLine(totalCharInStringAfterTransformation.LengthAfterTransformations("jqktcurgdvlibczdsvnsg", 7517));
 
