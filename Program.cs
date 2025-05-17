@@ -13,6 +13,9 @@ namespace forPractice
         static void Main(string[] args)
         {
 
+            qmedium75 qmedium75 = new qmedium75();
+            qmedium75.sortColors(new int[] { 2, 0, 2, 1, 1, 0 });
+
             var words = new string[] { "a", "b", "c", "d" };
             var group = new int[] { 1, 1, 0, 1 };
             qeasy2900 qeasy = new qeasy2900();
