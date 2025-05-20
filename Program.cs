@@ -12,6 +12,11 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            MutualFriends mutual = new MutualFriends();
+            mutual.getCount(new List<int> { 2, 1, 1 });
+
+            qhard1931 qhard1931 = new qhard1931();
+            qhard1931.ColorTheGrid(2, 2);
 
             qmedium75 qmedium75 = new qmedium75();
             qmedium75.sortColors(new int[] { 2, 0, 2, 1, 1, 0 });
