@@ -12,6 +12,10 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+
+            qmedium3355 qmedium3355 = new qmedium3355();
+            qmedium3355.IsZeroArray(new int[] { 1, 2, 1, 0, 0, 0 }, new int[][] { new int[] { 0, 3 }, new int[] { 2, 4 } });
+
             MutualFriends mutual = new MutualFriends();
             mutual.getCount(new List<int> { 2, 1, 1 });
 
