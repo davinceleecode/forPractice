@@ -13,6 +13,19 @@ namespace forPractice
         static void Main(string[] args)
         {
 
+            qeasy2942 qeasy2942 = new qeasy2942();
+            qeasy2942.FindWordsContaining(new string[] { "leet", "code" }, 'E');
+
+
+            qmedium3362 qmedium3362 = new qmedium3362();
+            qmedium3362.MaxRemoval(new int[] { 1, 1, 1, 1 }, new int[][]
+            {
+                new int[] {1, 3},
+                new int[] {0, 2},
+                new int[] {1, 3},
+                new int[] {1, 2}
+            });
+
             qmedium3355 qmedium3355 = new qmedium3355();
             qmedium3355.IsZeroArray(new int[] { 1, 2, 1, 0, 0, 0 }, new int[][] { new int[] { 0, 3 }, new int[] { 2, 4 } });
 
