@@ -14,9 +14,7 @@
     <Folder Include="DesignPatterns\Behavioral Patterns\Visitor\" />
     <Folder Include="DesignPatterns\Behavioral Patterns\TemplateMethod\" />
     <Folder Include="DesignPatterns\Behavioral Patterns\State\" />
-    <Folder Include="DesignPatterns\Behavioral Patterns\Strategy\" />
     <Folder Include="DesignPatterns\Behavioral Patterns\Observer\" />
-    <Folder Include="DesignPatterns\CreationalPatterns\FactoryMethod\" />
     <Folder Include="DesignPatterns\CreationalPatterns\AbstractFactory\" />
     <Folder Include="DesignPatterns\CreationalPatterns\Builder\" />
     <Folder Include="DesignPatterns\CreationalPatterns\Prototype\" />
