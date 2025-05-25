@@ -13,6 +13,13 @@ namespace forPractice
         static void Main(string[] args)
         {
 
+            qmedium2131 qmedium2131 = new qmedium2131();
+            qmedium2131.LongestPalindrome(new string[] { "lc", "cl", "gg", "cl", "gg", "gg" });
+
+            contest contest = new contest();
+            contest.MinCuttingCost(6, 5, 5);
+
+
             qeasy2942 qeasy2942 = new qeasy2942();
             qeasy2942.FindWordsContaining(new string[] { "leet", "code" }, 'E');
 

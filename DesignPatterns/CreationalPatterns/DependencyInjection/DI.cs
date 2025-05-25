@@ -65,7 +65,9 @@ namespace forPractice.DesignPatterns.CreationalPatterns.DependencyInjection
                 IGameControls xbox = new Xbox();
                 IGameControls ps = new PlayStation();
                 IGameControls nintendo = new Nintendo();
+
                 var gameconsole = new GameConsole(xbox);
+                var g = new GameConsole(new Xbox());
                 gameconsole.Start();
             }
 
