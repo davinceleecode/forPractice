@@ -13,6 +13,9 @@ namespace forPractice
         static void Main(string[] args)
         {
 
+            qeasy2894 qeasy2894 = new qeasy2894();
+            qeasy2894.DifferenceOfSums(5, 6);
+
             qmedium2131 qmedium2131 = new qmedium2131();
             qmedium2131.LongestPalindrome(new string[] { "lc", "cl", "gg", "cl", "gg", "gg" });
 
