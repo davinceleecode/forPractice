@@ -12,6 +12,9 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            qmedium2929 qmedium = new qmedium2929();
+            qmedium.DistributeCandies(5, 2);
+
 
             qeasy2894 qeasy2894 = new qeasy2894();
             qeasy2894.DifferenceOfSums(5, 6);
