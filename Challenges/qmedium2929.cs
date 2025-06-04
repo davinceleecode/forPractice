@@ -8,6 +8,26 @@ namespace forPractice.Challenges
     {
         public long DistributeCandies(int n, int limit)
         {
+
+            string str = "ABC";
+
+            for (int i = 0; i < str.Length; ++i)
+            {
+                StringBuilder subString = new StringBuilder(str.Length - i);
+                for (int j = i; j < str.Length; ++j)
+                {
+                    subString.Append(str[j]);
+                    Console.Write(subString + " ");
+                }
+            }
+
+
+
+
+
+
+
+
             long totalWays = 0;
 
             // Inclusion-Exclusion for 3 children (2^3 = 8 subsets)

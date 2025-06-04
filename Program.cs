@@ -12,6 +12,10 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+
+            qmedium3403 qmedium3403 = new qmedium3403();
+            qmedium3403.AnswerString("dbca", 2);
+
             qmedium2929 qmedium = new qmedium2929();
             qmedium.DistributeCandies(5, 2);
 
