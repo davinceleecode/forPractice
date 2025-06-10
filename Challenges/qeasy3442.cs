@@ -29,7 +29,8 @@ namespace forPractice.Challenges
                 {
                     if (count % 2 == 0)
                     {
-                        evenCount = evenCount > count ? evenCount : count;
+
+                        evenCount = evenCount == 0 ? evenCount = count : evenCount < count ? evenCount : count;
                         count = 1;
                         currentChar = item;
                         continue;
@@ -47,7 +48,7 @@ namespace forPractice.Challenges
             }
 
             if (count > 1 && count % 2 == 0)
-                evenCount = evenCount > count ? evenCount : count;
+                evenCount = evenCount == 0 ? evenCount = count : evenCount < count ? evenCount : count;
             else
                 oddCount = oddCount > count ? oddCount : count;
 
