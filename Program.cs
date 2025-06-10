@@ -13,7 +13,7 @@ namespace forPractice
         static void Main(string[] args)
         {
             qeasy3442 qeasy3442 = new qeasy3442();
-            qeasy3442.MaxDifference("abcabcab");
+            qeasy3442.MaxDifference("aaaaabbc");
 
             qmedium2434 qmedium2434 = new qmedium2434();
             qmedium2434.RobotWithString("bac");
