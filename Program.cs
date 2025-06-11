@@ -12,6 +12,9 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            qhard3445 qhard3445 = new qhard3445();
+            qhard3445.MaxDifference("12233", 4);
+
             qeasy3442 qeasy3442 = new qeasy3442();
             qeasy3442.MaxDifference("aaaaabbc");
 
