@@ -19,6 +19,7 @@ namespace forPractice.Challenges
             //comment a code Fixes #15
             //comment a code Fixes #17
             //comment a code Fixes #20
+            //comment a code Fixes #22
         }
     }
 }
