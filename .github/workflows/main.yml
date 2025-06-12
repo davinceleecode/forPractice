@@ -1,0 +1,15 @@
+# .github/workflows/add-to-project.yml
+name: Add PR to GitHub Project
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  add_to_project:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v1
+        with:
+          project-url: https://github.com/orgs/YOUR_ORG/projects/YOUR_PROJECT_NUMBER
+          github-token: ${{ secrets.GITHUB_TOKEN }}
