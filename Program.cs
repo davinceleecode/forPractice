@@ -12,6 +12,9 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            qeasy3423 qeasy3423 = new qeasy3423();
+            qeasy3423.MaxAdjacentDistance(new int[] { 1, 2, 4 });
+
             qhard3445 qhard3445 = new qhard3445();
             qhard3445.MaxDifference("12233", 4);
 
