@@ -15,7 +15,7 @@ namespace forPractice.Challenges
                 res = Math.Max(res, Math.Abs(nums[i] - nums[i + 1]));
             }
             return res;
-
+            //adding code here for testing purposes
         }
     }
 }
