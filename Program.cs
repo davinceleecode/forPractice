@@ -12,6 +12,10 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            qmedium2294 qmedium2294 = new qmedium2294();
+            qmedium2294.PartitionArray(new int[] { 3, 6, 1, 2, 5 }, 2);
+
+
             qeasy2016 qeasy2016 = new qeasy2016();
             qeasy2016.MaximumDifference(new int[] { 1, 5, 2, 10 });
 
