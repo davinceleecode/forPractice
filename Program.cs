@@ -12,6 +12,9 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            qeasy3330 qeasy3330 = new qeasy3330();
+            qeasy3330.PossibleStringCount("abbcccc");
+
             qmedium2294 qmedium2294 = new qmedium2294();
             qmedium2294.PartitionArray(new int[] { 3, 6, 1, 2, 5 }, 2);
 
