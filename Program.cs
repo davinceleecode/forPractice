@@ -12,6 +12,9 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            qeasy3304 qeasy3304 = new qeasy3304();
+            qeasy3304.KthCharacter(5);
+
             qeasy3330 qeasy3330 = new qeasy3330();
             qeasy3330.PossibleStringCount("abbcccc");
 
