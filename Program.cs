@@ -12,6 +12,14 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            qmedium1353 qmedium1353 = new qmedium1353();
+            qmedium1353.MaxEvents(new int[][]
+            {
+                new int[] { 1, 2 },
+                new int[] { 2, 3 },
+                new int[] { 3, 4 }
+            });
+
             qeasy3304 qeasy3304 = new qeasy3304();
             qeasy3304.KthCharacter(5);
 
