@@ -12,6 +12,10 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+
+            qeasy3136 qeasy3136 = new qeasy3136();
+            qeasy3136.IsValid("IS");
+
             qmedium1353 qmedium1353 = new qmedium1353();
             qmedium1353.MaxEvents(new int[][]
             {
