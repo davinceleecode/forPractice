@@ -12,6 +12,17 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            Practice4 practice4 = new Practice4();
+            practice4.solution(10, 85, 30);
+
+            Practice3 practice3 = new Practice3();
+            practice3.solution(new int[] { 9, 3, 9, 3, 9, 7, 9 });
+
+            Practice2 practice2 = new Practice2();
+            practice2.solution(new int[] { 3, 8, 9, 7, 6 }, 3);
+
+            Practice1 practice1 = new Practice1();
+            practice1.Solution(529);
 
             qeasy3136 qeasy3136 = new qeasy3136();
             qeasy3136.IsValid("IS");
