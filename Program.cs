@@ -12,6 +12,15 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            qeasy3477 qeasy3477 = new qeasy3477();
+            qeasy3477.NumOfUnplacedFruits(new int[] { 4, 2, 5 }, new int[] { 3, 5, 4 });
+
+            Practice6 practice6 = new Practice6();
+            practice6.FrequentWord(new string[] { "zebra", "zebra", "apple", "apple", "apple" });
+
+            Practice5 practice5 = new Practice5();
+            practice5.solution(new int[] { 2, 3, 1, 5 });
+
             Practice4 practice4 = new Practice4();
             practice4.solution(10, 85, 30);
 
