@@ -12,6 +12,9 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            qeasy231 qeasy231 = new qeasy231();
+            qeasy231.isPowerOfTwo(16);
+
             qeasy3477 qeasy3477 = new qeasy3477();
             qeasy3477.NumOfUnplacedFruits(new int[] { 4, 2, 5 }, new int[] { 3, 5, 4 });
 
