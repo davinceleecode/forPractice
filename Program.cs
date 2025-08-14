@@ -12,6 +12,9 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            qeasy2264 qeasy2264 = new qeasy2264();
+            qeasy2264.LargestGoodInteger("222");
+
             qeasy231 qeasy231 = new qeasy231();
             qeasy231.isPowerOfTwo(16);
 
