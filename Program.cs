@@ -12,6 +12,9 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            qeasy1323 qeasy1323 = new qeasy1323();
+            qeasy1323.Maximum69Number(9999);
+
             qeasy2264 qeasy2264 = new qeasy2264();
             qeasy2264.LargestGoodInteger("222");
 
