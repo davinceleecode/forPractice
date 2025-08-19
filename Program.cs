@@ -12,6 +12,10 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+
+            qmedium2348 qmedium23481 = new qmedium2348();
+            qmedium23481.ZeroFilledSubarray(new int[] { 0, 12, 0, 12, 0, -8, 0, -18, 0, -11, 0 });
+
             qeasy1323 qeasy1323 = new qeasy1323();
             qeasy1323.Maximum69Number(9999);
 
