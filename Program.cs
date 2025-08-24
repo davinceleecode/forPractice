@@ -12,9 +12,11 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+
+            qmedium1493 qmedium1493 = new qmedium1493();
+            qmedium1493.LongestSubarray(new int[] { 0, 1, 1, 1, 1, 1 });
+
             qmedium1277 qmedium1277 = new qmedium1277();
-
-
             qmedium1277.CountSquares(new int[][] {
                 new int[] { 0, 1, 1, 1},
                 new int[] { 1, 1, 1, 1 },
