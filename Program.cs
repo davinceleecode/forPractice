@@ -13,6 +13,9 @@ namespace forPractice
         static void Main(string[] args)
         {
 
+            qeasy3000 qeasy3000 = new qeasy3000();
+            qeasy3000.AreaOfMaxDiagonal(new int[][] { new int[] { 2, 6 }, new int[] { 5, 1 }, new int[] { 3, 10 }, new int[] { 8, 4 } });
+
             qmedium1493 qmedium1493 = new qmedium1493();
             qmedium1493.LongestSubarray(new int[] { 0, 1, 1, 1, 1, 1 });
 
