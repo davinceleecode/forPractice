@@ -12,6 +12,11 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            BinarySearch binarySearch = new BinarySearch();
+            binarySearch.BinSearch(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }, 3);
+
+            selectionSort selectionSort = new selectionSort();
+            selectionSort.SelectionSortArr(new int[] { 4, 3, 5, 1, 2, 7, 6 });
 
             qeasy3000 qeasy3000 = new qeasy3000();
             qeasy3000.AreaOfMaxDiagonal(new int[][] { new int[] { 2, 6 }, new int[] { 5, 1 }, new int[] { 3, 10 }, new int[] { 8, 4 } });
