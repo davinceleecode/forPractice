@@ -12,6 +12,9 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            qeasy1317 qeasy1317 = new qeasy1317();
+            qeasy1317.GetNoZeroIntegers(10509);
+
             BinarySearch binarySearch = new BinarySearch();
             binarySearch.BinSearch(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }, 3);
 
