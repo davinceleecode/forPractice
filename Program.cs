@@ -12,6 +12,8 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            qeasy3541 qeasy3541 = new qeasy3541();
+            qeasy3541.MaxFreqSum("successes");
             qeasy1317 qeasy1317 = new qeasy1317();
             qeasy1317.GetNoZeroIntegers(10509);
 
