@@ -12,6 +12,10 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+
+            qeasy1935 qeasy1935 = new qeasy1935();
+            qeasy1935.CanBeTypedWords("hello world", "ad");
+
             qeasy3541 qeasy3541 = new qeasy3541();
             qeasy3541.MaxFreqSum("successes");
             qeasy1317 qeasy1317 = new qeasy1317();
