@@ -12,6 +12,8 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            qeasy3005 qeasy3005 = new qeasy3005();
+            qeasy3005.MaxFrequency(new int[] { 1, 5, 5, 4, 3, 1 });
 
             qeasy1935 qeasy1935 = new qeasy1935();
             qeasy1935.CanBeTypedWords("hello world", "ad");
