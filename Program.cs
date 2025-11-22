@@ -12,6 +12,10 @@ namespace forPractice
 
         static void Main(string[] args)
         {
+            qeasy3190 qeasy3190 = new qeasy3190();
+            qeasy3190.MinimumOperations(new int[] { 1, 2, 3, 4 });
+
+
             qeasy3005 qeasy3005 = new qeasy3005();
             qeasy3005.MaxFrequency(new int[] { 1, 5, 5, 4, 3, 1 });
 
