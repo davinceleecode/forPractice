@@ -17,3 +17,4 @@ namespace forPractice.Challenges
             return result;
         }
     }
+}
